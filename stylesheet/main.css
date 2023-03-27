@@ -62,11 +62,20 @@ div{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
+    margin-left: 8rem;
+    margin-right: 15rem;
 }
 .friends{
-    margin-top: 0.5em;
-    flex-grow: 1;
+    margin-top: 10rem;
+    text-align: center;
     font-size: 1.5rem;
+}
+.friends p{
+  font-size: 1.8em;
+  text-align: left;
+}
+.inst {
+  
 }
 #names{
   align-items: center;
@@ -182,7 +191,9 @@ div{
 .toggle .line3{
    transform: rotate(45deg) translate(-5px,-6px );
 }
-
+.container2 {
+  margin-top: 5rem;
+}
 .container2 ul {
   display: flex;
   flex-wrap: wrap;
@@ -231,7 +242,7 @@ div{
   }
 }
 .container3{
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .container3 ul {
   display: flex;
